@@ -21,7 +21,22 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Collaborative interface design tool for teams.",
+    "help": [
+      "Create frames for artboards",
+      "Use components for reuse",
+      "Share for collaboration"
+    ],
+    "docs": "https://zos-apps.github.io/figma",
+    "site": "https://github.com/zos-apps/figma",
+    "features": [
+      "Vector editing",
+      "Prototyping",
+      "Components",
+      "Auto-layout",
+      "Collaboration"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +69,13 @@
     "figma",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
