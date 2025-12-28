@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/figma",
+  "name": "@zos-apps/figma",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,15 @@
     "icon": "🎨",
     "category": "creative",
     "description": "Collaborative design and prototyping",
-    "permissions": ["network", "storage.local"],
+    "permissions": [
+      "network",
+      "storage.local"
+    ],
     "window": {
-      "defaultSize": { "width": 1200, "height": 800 },
+      "defaultSize": {
+        "width": 1200,
+        "height": 800
+      },
       "resizable": true
     }
   },
@@ -30,5 +36,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Collaborative design and prototyping",
+  "homepage": "https://zos-apps.github.io/figma",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/figma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/figma/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "figma",
+    "macos",
+    "desktop"
+  ]
 }
