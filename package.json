@@ -36,7 +36,25 @@
       "Components",
       "Auto-layout",
       "Collaboration"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/figma"
+    },
+    "featured": true,
+    "tags": [
+      "utility",
+      "figma"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/figma/issues",
+    "changelog": "https://github.com/zos-apps/figma/releases"
   },
   "scripts": {
     "build": "tsup",
