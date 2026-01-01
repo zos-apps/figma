@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback } from 'react';
 
 interface FigmaProps {
   onClose: () => void;
@@ -15,7 +15,7 @@ interface Shape {
   text?: string;
 }
 
-const Figma: React.FC<FigmaProps> = ({ onClose }) => {
+const Figma: React.FC<FigmaProps> = ({ onClose: _onClose }) => {
   const [shapes, setShapes] = useState<Shape[]>([
     { id: '1', type: 'rectangle', x: 100, y: 100, width: 200, height: 150, fill: '#5B5FC7' },
     { id: '2', type: 'ellipse', x: 350, y: 120, width: 120, height: 120, fill: '#F24E1E' },
